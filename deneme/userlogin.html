@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Personel website of Nagihan Baz</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="header"><h1><a href="index.html">FLOWERS</a></h1></div>
+      <div id="wrapper">
+        <div id="content">
+          <p>Enter your e-mail and password.</p>
+  <form class="ui large form">
+    <div class="ui stacked segment">
+        <div class="field">
+            <div class="ui icon input">
+                <input type="text" name="email" placeholder="E-mail address" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="ui icon input">
+                <input type="password" id="password" name="password" placeholder="Password" /> 
+                <i class="circular eye link icon" onclick="togglePassword()"></i>
+            </div>
+        </div>
+        <div class="ui fluid large teal submit button"><button>Login</button>
+    </div>
+</form>
+<script>
+    function togglePassword() {
+        var element = document.getElementById('password');
+        element.type = (element.type == 'password' ? 'text' : 'password');
+    }
+</script>
+</div>
+</div>
+<div id="navigation">
+  <p><strong>Welcome</strong></p>
+  <ul>
+    <li><a href="index.html">Home page</a></li>
+    <li><a href="firstJavaScript.html">Java Script </a></li>
+    <li><a href="connect.html">Contact</a></li>
+    <li><a href="lectureNotes.html">Lecture Notes</a></li>
+    <li><a href="user_login.html">User Login</a></li>
+  </ul>
+</div>
+
+<div id="flowertypes">
+  <p>Flower Types</p>
+</div>
+</div>
+</body>
+</html>

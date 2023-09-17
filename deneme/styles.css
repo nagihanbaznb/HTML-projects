@@ -1,0 +1,59 @@
+html,body{margin:0;padding:0}
+body{
+font: 100% arial,
+sans-serif;
+text-align:center
+}
+p{
+margin:0 10px 10px}
+a{
+padding:5px; 
+text-decoration:none; 
+color:#000000;
+}
+div#header{
+background-color:#fac09e;
+background-image: url(https://sites.google.com/site/ciceklerdunyasi/_/rsrc/1306481141041/home/images.jpeg);
+}
+div#header h1{
+height:200px;
+line-height:100px;
+margin:0;
+padding-left:10px;
+}
+div#container{
+text-align:left
+}
+div#content p{
+line-height:1.4
+}
+div#navigation{
+background:#ff9b60;
+}
+div#navigation ul{
+margin:15px 0; 
+padding:0; 
+list-style-type:none;}
+div#navigation li{
+margin-bottom:5px;
+}
+div#extra{
+background:#ffd7bd;
+}
+div#flowertypes{
+background:#ec6810;
+}
+div#flowertypes p{
+margin:0;
+padding:5px 10px
+}
+div#container{width:700px;
+margin:0 auto}
+div#wrapper{float:left;width:100%}
+div#content{margin: 0 150px} 
+div#navigation{float:left;width:150px;margin-left:-700px}
+div#extra{float:left;width:150px;margin-left:-150px}
+div#flowertypes{clear:left;width:100%}
+
+div#assignmentone{ line-height:1.4; size: 22px; margin: 0 150px  ; font: 76% "Comic Sans MS", "Comic Sans", cursive
+        }
